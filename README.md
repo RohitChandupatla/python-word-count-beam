@@ -45,7 +45,7 @@ python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
 ```
 A virtual environment needs to be activated for each shell that is to use it. Activating it sets some environment variables that point to the virtual environment’s directories.
 
-## To activate a virtual environment in Bash, run:
+## To activate a virtual environment in powershell, run:
 ```
 C:\Users\s542423\Documents\44517\python-word-count-beam\Scripts\activate.ps1\
 ```
