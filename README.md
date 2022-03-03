@@ -1,8 +1,8 @@
 # python-word-count-beam by Rohit Reddy Chandupatla
 
-# All of these commands should be run in Powershell.
+### All of these commands should be run in Powershell.
 
-### Set up your environment
+## Set up your environment
 
 **Check your Python version**
 
@@ -36,7 +36,7 @@ A virtual environment is a directory tree containing its own Python distribution
 ```
 python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
 ```
-## Add and copy the code from the **[wordcount.py](https://github.com/apache/beam/blob/master/sdks/python/apache_beam/examples/wordcount.py) file.** after you've set up your Python environment.
+## Add and copy the code from the **[wordcount.py](https://raw.githubusercontent.com/apache/beam/master/sdks/python/apache_beam/examples/wordcount.py) file.** after you've set up your Python environment.
 
 **Run it from here after you've included wordcount.py.**
 
@@ -45,7 +45,7 @@ python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
 ```
 A virtual environment needs to be activated for each shell that is to use it. Activating it sets some environment variables that point to the virtual environment’s directories.
 
-## To activate a virtual environment in Bash, run:
+## To activate a virtual environment run:
 ```
 C:\Users\s542423\Documents\44517\python-word-count-beam\Scripts\activate.ps1\
 ```
@@ -59,8 +59,11 @@ python -m pip install apache-beam
 The Apache Beam examples directory has many [examples](https://github.com/apache/beam/tree/master/sdks/python/apache_beam/examples) All examples can be run locally by passing the required arguments described in the example script.
 
 run wordcount.py with the following command:
+
+I used my name in the following command so that the resulting output would include my name.
 ```
 python -m wordcount --input sample.txt --output Rohit
 ```
+here is my **[output file](https://github.com/RohitChandupatla/python-word-count-beam/blob/main/Rohit-00000-of-00001)** with my name on it.
 
 
