@@ -36,7 +36,7 @@ A virtual environment is a directory tree containing its own Python distribution
 ```
 python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
 ```
-## Add and copy the code from the **[wordcount.py](https://github.com/apache/beam/blob/master/sdks/python/apache_beam/examples/wordcount.py) file.** after you've set up your Python environment.
+## Add and copy the code from the **[wordcount.py](https://raw.githubusercontent.com/apache/beam/master/sdks/python/apache_beam/examples/wordcount.py) file.** after you've set up your Python environment.
 
 **Run it from here after you've included wordcount.py.**
 
