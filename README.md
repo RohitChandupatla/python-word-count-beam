@@ -1,6 +1,6 @@
 # python-word-count-beam by Rohit Reddy Chandupatla
 
-# All of these commands should be run in Powershell.
+## All of these commands should be run in Powershell.
 
 ### Set up your environment
 
@@ -64,5 +64,6 @@ I used my name in the following command so that the resulting output would inclu
 ```
 python -m wordcount --input sample.txt --output Rohit
 ```
+it will create an **[output file](https://github.com/RohitChandupatla/python-word-count-beam/blob/main/Rohit-00000-of-00001)** with my name on it.
 
 
