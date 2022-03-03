@@ -35,7 +35,6 @@ python -m pip install --upgrade pip
 A virtual environment is a directory tree containing its own Python distribution. To create a virtual environment, run:
 ```
 python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
-
 ```
 ## Add and copy the code from the **[wordcount.py](https://github.com/apache/beam/blob/master/sdks/python/apache_beam/examples/wordcount.py) file.** after you've set up your Python environment.
 
@@ -43,9 +42,6 @@ python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
 
 ```
 python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
-
-
-
 ```
 A virtual environment needs to be activated for each shell that is to use it. Activating it sets some environment variables that point to the virtual environment’s directories.
 
