@@ -59,6 +59,8 @@ python -m pip install apache-beam
 The Apache Beam examples directory has many [examples](https://github.com/apache/beam/tree/master/sdks/python/apache_beam/examples) All examples can be run locally by passing the required arguments described in the example script.
 
 run wordcount.py with the following command:
+
+I used my name in the following command so that the resulting output would include my name.
 ```
 python -m wordcount --input sample.txt --output Rohit
 ```
