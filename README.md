@@ -4,7 +4,7 @@
 
 ### Set up your environment
 
-• Check your Python version
+**Check your Python version**
 
 The Beam SDK requires Python users to use Python version 3.6 or higher. Check your version by running:
 
@@ -26,6 +26,8 @@ pip --version
 python -m pip install --upgrade pip
 ```
 
+### 
+
 ## Get Apache Beam
 
 ### Create and activate a virtual environment
@@ -33,24 +35,34 @@ python -m pip install --upgrade pip
 A virtual environment is a directory tree containing its own Python distribution. To create a virtual environment, run:
 ```
 python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
+
+```
+## Add and copy the code from the **[wordcount.py](https://github.com/apache/beam/blob/master/sdks/python/apache_beam/examples/wordcount.py) file.** after you've set up your Python environment.
+
+**Run it from here after you've included wordcount.py.**
+
+```
+python -m venv C:\Users\s542423\Documents\44517\python-word-count-beam
+
+
+
 ```
 A virtual environment needs to be activated for each shell that is to use it. Activating it sets some environment variables that point to the virtual environment’s directories.
 
-To activate a virtual environment in Bash, run:
+## To activate a virtual environment in Bash, run:
 ```
 C:\Users\s542423\Documents\44517\python-word-count-beam\Scripts\activate.ps1\
 ```
-
 ### Download and install
 
-Install the latest Python SDK from PyPI:
+**Install the latest Python SDK from PyPI:**
 ```
 python -m pip install apache-beam
 ```
 ### Execute a pipeline
-The Apache Beam examples directory has many examples. All examples can be run locally by passing the required arguments described in the example script.
+The Apache Beam examples directory has many [examples](https://github.com/apache/beam/tree/master/sdks/python/apache_beam/examples) All examples can be run locally by passing the required arguments described in the example script.
 
-For example, run wordcount.py with the following command:
+run wordcount.py with the following command:
 ```
 python -m wordcount --input sample.txt --output Rohit
 ```
